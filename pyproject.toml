@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "austinbot"
+version = "0.1.0"
+description = ""
+authors = ["ltshg <nail20142511@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.19"
+tortoise-orm = {extras = ["asyncpg"], version = "^0.18.1"}
+loguru = "^0.6.0"
+Pillow = "^9.0.1"
+numpy = "^1.22.2"
+opencv-python = "^4.5.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
